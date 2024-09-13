@@ -1,0 +1,61 @@
+<!-- 
+ Browserausgabe:
+
+Zur Zeit laufen im Kinocenter folgende Filme
+    
+| Kinosaal |       Name       |  Dauer  |
+|    1     |Yellowstone River | 135 min |
+|    6     |Vor langer Zeit   |  99 min |
+|    3     | Geheimnis des ...| 120 min |
+
+
+Für Umlaute: &[Buchstabe der als Umlaut geschrieben werden soll]uml ;[Rest des Wortes]
+Bsp.: &Auml ;quator ergibt Äquator
+
+Alternativ:
+<head>
+    <meta charset="utf-8">
+</head>
+-->
+
+<html>
+    <head>
+        <title>Aktuelles Programm</title>
+    </head>
+
+    <body>
+        <b>Zur Zeit laufen im Kinocenter folgende Filme:</b><br><br>
+        <table border=1>
+            <colgroup>
+                <col width=100>
+                <col width=220>
+                <col width=150>
+            </colgroup>
+
+            <tr>
+                <th>Kinosaal</th>
+                <th>Film</th>
+                <th>Dauer</th>
+            </tr>
+            
+            <tr>
+                <td>1</td>
+                <td>Yellowstone River</td>
+                <td>135 min</td>
+            </tr>
+
+            <tr></tr>
+                <td>6</td>
+                <td>Vor langer Zeit</td>
+                <td>99 min</td>
+            </tr>
+
+            <tr></tr>
+                <td>3</td>
+                <td>Geheimnis des Aequators</td>
+                <td>120 min</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
