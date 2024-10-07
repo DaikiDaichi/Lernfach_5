@@ -3,7 +3,7 @@
         <title>Eintrittspreis</title>
     </head>
 
-    <bod>
+    <body>
         <?php
             $preis = 11;
             $rabatt = 0.1;
@@ -14,5 +14,5 @@
             echo $preis;
             echo $preis_kinokarte;
         ?>
-    </bod>
+    </body>
 </html>
