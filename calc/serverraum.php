@@ -5,7 +5,7 @@
 
     <body>
         <?php
-            $Verbrauch = 18000.0;   //in kWh
+            $Verbrauch = 18000.0;   //in kWhvjhwj
             $Grundpreis = 24.95;    //in Euro
             $Arbeitspreis = 18.5;   //in Cent
             
