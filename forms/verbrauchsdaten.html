@@ -6,13 +6,13 @@
     <body>
         <form action="./kosten.php" method="get">
             Elektrische Leistung <br>
-            <input type="text" name="leistung" size="4"> kW
+            <input type="number" name="leistung" step="any"> kW
             <br><br>
             Betriebszeit <br>
-            <input type="text" name="betriebszeit" size="4"> Stunden
+            <input type="number" name="betriebszeit" step="any"> Stunden
             <br><br>
             Arbeitspreis
-            <input type="text" name="arbeitspreis" size="4"> Cent/kWh
+            <input type="number" name="arbeitspreis" step="any"> Cent/kWh
             <br><br>
             <input type="submit" value="Berechnen">
         </form>

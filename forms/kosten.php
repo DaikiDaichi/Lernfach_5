@@ -13,7 +13,7 @@
             $kosten = $arbeitspreis*$arbeit/100;
 
             echo $arbeit, "kWh<br>";
-            echo $kosten, "Euro";
+            echo number_format($kosten, 2, ",", " "), "Euro";
         ?>
     </body>
 </html>
