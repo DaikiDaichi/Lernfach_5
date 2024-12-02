@@ -9,8 +9,8 @@
             $arbeitspreis = $_GET["arbeitspreis"];
             $leistung = $_GET["leistung"];
 
-            $arbeit = $arbeitszeit * $leistung/1000;
-            $kosten = $arbeitspreis/100*$arbeit;
+            $arbeit = $arbeitszeit * $leistung;
+            $kosten = $arbeitspreis*$arbeit/100;
 
             echo $arbeit, "kWh<br>";
             echo $kosten, "Euro";
