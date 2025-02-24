@@ -18,11 +18,11 @@
                 echo"Bester Tarif ist T3";
                 $best_t = $t3;
             }
-            elseif ($t2 <= $t1) {
+            if ($t2 <= $t1 && $t2 <= $t3) {
                 echo"Bester Tarif ist T2";
                 $best_t = $t2;
             }
-            else {
+            if ($t1 <= $t2 && $t1 <= $t3) {
                 echo"Bester Tarif ist T1";
                 $best_t = $t1;
             }
