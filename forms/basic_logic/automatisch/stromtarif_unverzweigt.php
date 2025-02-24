@@ -34,8 +34,6 @@
                 Netto:  $net_kost<br>
                 Mwst:   $mwst_betrag";
 
-            //number_format scheint eine Zahl zum string abzuändern. numberformat nur bei Ausgaben verwenden!
-            //(int)$var oder (float)$var kann das ergbniss zurückformen, aber nur ohne kommastellen!
         ?>
     </body>
 </html>
