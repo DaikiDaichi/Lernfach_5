@@ -13,7 +13,7 @@
         </form>
     
 		<?php
-        	if (isset $_GET["submit"]) {
+        	if (isset($_GET["submit"])) {
             	$jahre=$_GET["jahre"];
                 $zinsfuss=$_GET["zinsfuss"];
                 $kapital = $_GET["kapital"];
